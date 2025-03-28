@@ -1,0 +1,51 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Graduation-Thesis-Multivariate-Frequency-Severity
+
+This is a project applying Actuarial Modelling to Social Health Insurance in Ho Chi Minh City, 2014, where each visit has multiple expenses.
+
+## Overview
+
+The goal of this project is to analyze multivariate frequency and severity models using R.
+
+## Installation
+
+You can install the required packages using:
+
+```{r}
+install.packages(c("tidyverse", "actuar", "ggplot2", "MASS"))
+```
+
+## Example Analysis
+
+```{r example, echo = TRUE}
+data(cars)
+summary(cars)
+```
+
+## Visualizations
+
+```{r pressure_plot, echo = FALSE}
+plot(pressure)
+```
+
+Make sure to render `README.Rmd` to update `README.md` using:
+
+```r
+rmarkdown::render("README.Rmd")
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
